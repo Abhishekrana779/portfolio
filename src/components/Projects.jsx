@@ -15,7 +15,7 @@ const projects = [
       "A modern personal portfolio built with React, Vite, and Tailwind CSS featuring dark mode and responsive design.",
     tech: ["React", "Tailwind CSS", "Vite"],
     github: "https://github.com/Abhishekrana779/My-portfolio",
-    live: "https://my-portfolio-plum-zeta-70.vercel.app/",
+    live: "https://abishekrana254.com.np/",
   },
   {
     id: 2,
