@@ -14,8 +14,8 @@ const projects = [
     description:
       "A modern personal portfolio built with React, Vite, and Tailwind CSS featuring dark mode and responsive design.",
     tech: ["React", "Tailwind CSS", "Vite"],
-    github: "https://github.com/yourusername/portfolio",
-    live: "https://yourportfolio.com",
+    github: "https://github.com/Abhishekrana779/My-portfolio",
+    live: "https://my-portfolio-plum-zeta-70.vercel.app/",
   },
   {
     id: 2,
@@ -24,18 +24,18 @@ const projects = [
     description:
       "A responsive e-commerce platform with shopping cart, authentication, and product management.",
     tech: ["React", "Node.js", "MongoDB"],
-    github: "https://github.com/yourusername/ecommerce",
-    live: "https://demo.com",
+    github: "https://github.com/Abhishekrana779/OURSHOP",
+    live: "https://our-store123.netlify.app/",
   },
   {
     id: 3,
-    title: "Library Management System",
+    title: "Weather App",
     image: skill3,
     description:
-      "A full-stack library management system with book management, issue/return features, and admin dashboard.",
-    tech: ["Django", "SQLite", "Bootstrap"],
-    github: "https://github.com/yourusername/library",
-    live: "#",
+      "A weather app that provides real-time weather updates and forecasts for any city using a weather API.",
+    tech: ["MERN", "mysql", "Bootstrap"],
+    github: "https://github.com/Abhishekrana779/weatherapp",
+    live: "https://weatherapp-qoxirf4n1-abisheks-projects-68801856.vercel.app/",
   },
 ];
 
@@ -88,7 +88,7 @@ export default function Projects() {
 
           <div className="w-24 h-1 bg-linear-to-r from-cyan-400 to-blue-500 rounded-full mx-auto mt-5"></div>
 
-          <p className="max-w-3xl mx-auto mt-6 text-gray-400">
+          <p className="max-w-3xl mx-auto mt-6 text-white">
             A collection of projects showcasing my expertise in frontend,
             backend, and full-stack web development.
           </p>
@@ -127,9 +127,11 @@ export default function Projects() {
 
               {/* Content */}
               <div className="p-7">
-                <h3 className="text-2xl font-bold mb-3">{project.title}</h3>
+                <h3 className="text-2xl font-black mb-3">{project.title}</h3>
 
-                <p className="text-gray-400 leading-7">{project.description}</p>
+                <p className="text-gray-400 font-extralight leading-7">
+                  {project.description}
+                </p>
 
                 {/* Tech */}
                 <div className="flex flex-wrap gap-2 mt-6">
