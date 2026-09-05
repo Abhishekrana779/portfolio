@@ -1,25 +1,25 @@
-import Hero from '../components/Hero.jsx'
-import About from '../components/About.jsx'
-import Skills from '../components/Skills.jsx'
-import Certificates from '../components/Certificates.jsx'
-import Contact from '../components/Contact.jsx'
-import Education from '../components/Education.jsx'
-import Projects from '../components/Projects.jsx'
-import Services from '../components/services.jsx'
-
-import React from 'react'
+import Navbar from "../components/layout/Navbar";
+import Footer from "../components/layout/Footer";
+import Education from "../components/sections/education";
+import Hero from "../components/sections/Hero";
+import About from "../components/sections/About";
+import TechStack from "../components/sections/techstack";
+import Projects from "../components/sections/Projects";
+import Experience from "../components/sections/experience";
+import Contact from "../components/sections/contact";
 
 export default function Home() {
   return (
-    <div>
+    <div className="min-h-screen bg-slate-950 text-white">
+      <main>
         <Hero />
         <About />
-        <Skills />
         <Education />
+        <TechStack />
         <Projects />
-        <Services />
-        <Certificates />
+        <Experience />
         <Contact />
+      </main>
     </div>
-  )
+  );
 }
